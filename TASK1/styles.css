@@ -1,6 +1,6 @@
 /* General styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family:  sans-serif, arial;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -10,25 +10,32 @@ body {
 
 /* Header */
 header {
-  background-color: #007acc;
-  color: white;
+
+    background-image: linear-gradient(to bottom right, #62e7ff, rgb(49, 49, 254));
+    
+  color: rgb(0, 0, 0);
   padding: 20px;
   text-align: center;
 }
 
 /* Section styles */
 section {
+
   padding: 20px;
   margin: 20px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+h2{
+    text-align: center;
+    
 }
 
 /* Image styling */
 img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 8px;
 }
 
@@ -59,5 +66,6 @@ button:hover {
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #eee;
+  background-image: linear-gradient(to bottom right, #73b8fd, rgb(49, 49, 254));
+  color: white;
 }

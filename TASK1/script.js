@@ -1,3 +1,3 @@
 function showMessage() {
-  alert("Hello! You clicked the button.");
+  alert("Hello! You clicked Me.");
 }
