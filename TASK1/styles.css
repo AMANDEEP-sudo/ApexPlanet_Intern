@@ -8,13 +8,13 @@ body {
   color: #333;
 }
 
-/* Header */
+
 header {
 
     background-image: linear-gradient(to bottom right, #62e7ff, rgb(49, 49, 254));
     
   color: rgb(0, 0, 0);
-  padding: 20px;
+  padding: 5px;
   text-align: center;
 }
 
@@ -22,9 +22,8 @@ header {
 section {
 
   padding: 20px;
-  margin: 20px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: rgb(219, 247, 245);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 h2{
@@ -59,7 +58,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: #218838;
+  background-color: #0f6722;
 }
 
 /* Footer */
