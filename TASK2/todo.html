@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hero Page</title>
+    <title>To-Do List</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
@@ -11,17 +11,20 @@
     <nav class="navbar">
         <div class="logo">Apex Planet</div>
         <ul class="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="todo.html">To-Do List</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="todo.html" class="active">To-Do List</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="login.html">Login</a></li>
             <li><a href="signup.html">Signup</a></li>
         </ul>
     </nav>
-    <section class="hero">
-        <h1>Welcome to Apex Planet</h1>
-        <p>Explore our features, manage tasks, or get in touch!</p>
-        <a href="todo.html" class="cta-button">Get Started</a>
+    <section class="todo-section">
+        <h2>My To-Do List</h2>
+        <div class="todo-container">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button onclick="addTask()">Add Task</button>
+            <ul id="taskList"></ul>
+        </div>
     </section>
     <footer>
         <div class="social-links">
@@ -30,5 +33,6 @@
         </div>
         <p>&copy; 2025 . All rights reserved.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
