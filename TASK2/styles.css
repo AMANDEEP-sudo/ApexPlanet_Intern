@@ -15,14 +15,14 @@ body {
     background-color: #afafaf;
     color: #2d3436;
     line-height: 1.6;
-    display: flex; /* Use Flexbox for the body */
-    flex-direction: column; /* Stack children vertically */
-    min-height: 100vh; /* Minimum height of viewport */
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh; 
 }
 
-/* Wrapper for main content to push footer down */
+
 main {
-    flex: 1 0 auto; /* Grow to fill available space, don't shrink */
+    flex: 1 0 auto; 
 }
 
 /* Navbar Styles */
@@ -68,7 +68,7 @@ main {
     transform: translateY(-2px);
 }
 
-/* Hero Section with Parallax Effect */
+
 .hero {
     display: grid;
     place-items: center;
@@ -269,7 +269,7 @@ button[type="submit"]:hover {
 
 /* Footer Styles */
 footer {
-    flex-shrink: 0; /* Prevent footer from shrinking */
+    flex-shrink: 0; 
     background-color: #1a1a2e;
     color: #dfe6e9;
     padding: 2rem;
