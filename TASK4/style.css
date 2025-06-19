@@ -1,0 +1,124 @@
+
+*{
+    margin: 0px;
+    padding: 0%;
+}
+body{
+   background: rgb(8, 6, 42);
+   color: white;
+   font-family: 'poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: rgb(134, 134, 245);
+}
+
+#element{
+    color: rgb(165, 85, 239);
+    font-size: larger;
+}
+
+/* potrfolio name */
+.left{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+    
+}
+
+.firstsection > div{ 
+    width: 30%;
+
+    
+}
+.leftsection{
+    /* background-color: red; */
+    font-weight: 600;
+    font-size: larger;
+    margin: 150px 0px;
+    
+}
+.rightsection{
+
+
+    
+    
+}
+.rightsection img{
+    width: 400px;
+    margin:50px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.purple{
+    color: rgb(165, 85, 239);
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+}
+
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.4px;
+    margin: 40px 84px;
+
+}
+
+
+footer {
+    flex-shrink: 0; 
+    background-color: #000000;
+    color: #dfe6e9;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer .social-links a {
+    color: #dfe6e9;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #00b4d8;
+}
+
+footer p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}

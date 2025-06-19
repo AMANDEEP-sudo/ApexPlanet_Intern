@@ -1,0 +1,166 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Body Style */
+body {
+    background: rgb(8, 6, 42);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Style */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+}
+
+nav .left {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: rgb(134, 134, 245);
+}
+
+/* Contact Section */
+main {
+    padding: 2rem 0;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 80px 0;
+}
+
+.leftsection {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 12px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(156, 151, 241, 0.3);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* Form Styling */
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #1a1a3a;
+    color: white;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: 2px solid rgb(165, 85, 239);
+}
+
+form button {
+    
+    background-color: rgb(165, 85, 239);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+   
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form button:hover {
+    background-color: rgb(134, 134, 245);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .firstsection {
+        flex-direction: column;
+        align-items: center;
+        margin: 40px 20px;
+    }
+
+    .leftsection {
+        width: 90%;
+        padding: 1.5rem;
+    }
+}
+section div h1{
+    font-size: 2rem;
+    text-align: center;
+
+}
+section div h1:hover{
+    color: rgb(134, 134, 245);
+    font-weight: 700;
+}
+
+
+/* footer  */
+footer {
+    flex-shrink: 0; 
+    background-color: #000000;
+    color: #dfe6e9;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer .social-links a {
+    color: #dfe6e9;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #00b4d8;
+}
+
+footer p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}

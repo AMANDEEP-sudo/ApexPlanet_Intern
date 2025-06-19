@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>To-Do List - Aman's Portfolio</title>
+    <link rel="stylesheet" href="todo.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Aman's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <!-- <li><a href="about.html">About</a></li> -->
+                     <li><a href="/todo.html">To Do List</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                    
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="todo-section">
+            <h1>To-Do List</h1>
+            <div class="todo-input">
+                <input type="text" id="taskInput" placeholder="Enter a new task..." />
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="taskList"></ul>
+        </section>
+    </main>
+     <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/amandeep-aman-72b275297/">LinkedIn</a>
+            <a href="https://github.com/AMANDEEP-sudo/ApexPlanet_Intern">GitHub</a>
+        </div>
+        <p>&copy; 2025 . All rights reserved.</p>
+    </footer>
+
+    <script src="todo.js"></script>
+</body>
+</html>
