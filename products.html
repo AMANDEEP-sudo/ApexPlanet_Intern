@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products - Aman's Portfolio</title>
+  <link rel="stylesheet" href="products.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">Aman's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="products.html">Products</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="product-page">
+    <h1>Our Products</h1>
+
+    <div class="filters">
+      <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="tech">Tech</option>
+        <option value="books">Books</option>
+        <option value="fashion">Fashion</option>
+      </select>
+
+      <select id="priceFilter">
+        <option value="all">All Prices</option>
+        <option value="0-50">Below ₹50</option>
+        <option value="51-100">₹51 - ₹100</option>
+        <option value="101-9999">Above ₹100</option>
+      </select>
+
+      <select id="sortBy">
+        <option value="default">Sort by</option>
+        <option value="price">Price (Low to High)</option>
+        <option value="rating">Rating (High to Low)</option>
+      </select>
+    </div>
+
+    <div class="products-container" id="productList"></div>
+  </main>
+
+  <script src="products.js"></script>
+</body>
+</html>

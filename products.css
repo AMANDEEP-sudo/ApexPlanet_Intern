@@ -1,0 +1,114 @@
+/* Reset and base theme */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(8, 6, 42);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: black;
+}
+nav .left {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+nav ul li a:hover {
+  color: rgb(134, 134, 245);
+}
+
+/* Main product page */
+.product-page {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+.product-page h1 {
+    /* font-size: xx-large; */
+  text-align: center;
+  color: rgb(165, 85, 239);
+  margin-bottom: 20px;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.filters select {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #1a1a3a;
+  color: white;
+  font-size: 1rem;
+}
+
+/* Product grid */
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.product-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 0 12px rgba(156, 151, 241, 0.2);
+  transition: transform 0.3s ease;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+}
+.product-card h3 {
+  color: #d0d0ff;
+  margin-bottom: 0.5rem;
+}
+.product-card p {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+  color: #cfcfcf;
+}
+.product-card span {
+  color: rgb(165, 85, 239);
+  font-weight: 600;
+}
+
+/* product card image */
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.7rem;
+}
+
+
+
