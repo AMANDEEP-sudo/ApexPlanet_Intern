@@ -124,7 +124,7 @@ nav ul li a:hover {
 /* footer */
 footer {
     flex-shrink: 0; 
-    background-color: #1a1a2e;
+    background-color: #000000;
     color: #dfe6e9;
     padding: 2rem;
     text-align: center;

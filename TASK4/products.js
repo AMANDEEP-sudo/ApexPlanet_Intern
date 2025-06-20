@@ -4,42 +4,42 @@ const products = [
     category: "tech",
     price: 786,
     rating: 4.5,
-    image: "TASK4/images/mouse.jpg"
+    image: "images/mouse.jpg"
   },
   {
     name: "Bluetooth Headphones",
     category: "tech",
     price: 999,
     rating: 4.8,
-    image: "TASK4/images/headphones.jpg"
+    image: "images/headphones.jpg"
   },
   {
     name: "Denim Jacket",
     category: "fashion",
     price: 1249,
     rating: 4.3,
-    image: "TASK4/images/jacket.jpg"
+    image: "images/jacket.jpg"
   },
   {
     name: "Python Book",
     category: "books",
     price: 299,
     rating: 4.6,
-    image: "TASK4/images/python.jpg"
+    image: "images/python.jpg"
   },
   {
     name: "Dell Laptop",
     category: "tech",
     price: "80,000",
     rating: 4.2,
-    image: "TASK4/images/laptop.jpg"
+    image: "images/laptop.jpg"
   },
   {
     name: "T-Shirt",
     category: "fashion",
     price: 699,
     rating: 4.0,
-    image: "TASK4/images/tshirt.jpg"
+    image: "images/tshirt.jpg"
   }
 ];
 
